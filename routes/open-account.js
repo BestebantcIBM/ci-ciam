@@ -80,6 +80,7 @@ router.post('/car', function(req, res, next) {
     console.log("PRUEBA OTRA VEZ:", data["celular"]);
     console.log("PRUEBA TERCERA VEZ:", data.direccion);
     console.log("PRUEBA TERCERA VEZ:", data.carYear);
+    console.log("PRUEBA QUINTAA VEZ:", data.test);
     console.log("no se que es:", req.session.ceduladeciudadania);
 
     var brandIdvalue=process.env.BRAND_ID;
@@ -185,6 +186,27 @@ router.post('/car', function(req, res, next) {
                 pbody = response.data;
                 console.log("Response code:", response.statusCode);
                 console.log("Create response:", JSON.stringify(pbody));
+
+                //--------------------------------------------------------------
+                var groupElection = "NaN";
+                groupElection = data.test;
+                console.log("la eleccion del usuario fue: ", groupElection)
+                if (groupElection==="True") {
+                  group="646000TF2J";
+                }else if (groupElection==="False"){
+                  group="644002Q3XX";
+                }else group="644002Q3XX";
+                var options2 = {
+                  method: 'PATCH',
+                  url: process.env.OIDC_CI_BASE_URI+"/v2.0/Groups/"+group,
+                  // url: 'https://demowise.verify.ibm.com/v2.0/Groups/646000TF2J',  /////////Change tenant to env and group id as variable
+                  headers: {'Authorization': `Bearer ${accessToken}`, 'content-type': 'application/scim+json'},
+                  data:`{ "schemas":["urn:ietf:params:scim:api:messages:2.0:PatchOp"],"Operations": [{ "op": "add", "path": "members", "value": [{"type": "user","value":"${response.data.id}"}]}]}`
+                };
+                var response2 = await axios(options2);
+                console.log("Test add group: ", response2);
+
+                //--------------------------------------------------------------
                 if(response.status == 201){
                   //success
                   res.render('insurance/open-account-car-success', {
