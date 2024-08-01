@@ -28,7 +28,7 @@
     <!--Header-->
     <div class="header clearfix">
       <div class="container">
-        <div class="logo"><a href="/"><img src="/images/insurance_logo.svg"></a></div>
+        <div class="logo"><a href="/"><img src="/images/insurance_logo.svg" class="logo-img"></a></div>
               <div class="hamburger-menu">
                 <span></span>
                   <span></span>
@@ -37,10 +37,10 @@
         <div class="header-right">
          
           <a href="/account-claim" class="">Claim your account</a>
-          <a href="/open-account" class="open-btn">Get a quote</a>
-          {{#unless loggedIn}}<a href="/login" class="login-btn">Login</a>{{/unless}}
-          {{#if loggedIn}}<a href="/app/profile" class="login-btn" style="margin: 0 10px;">Profile</a>
-          <a href="/logout" class="login-btn">Logout</a>{{/if}}
+          <a href="/open-account" class="open-btn">Abrir cuenta</a>
+          {{#unless loggedIn}}<a href="/login" class="login-btn">Inicia sesión</a>{{/unless}}
+          {{#if loggedIn}}<a href="/app/profile" class="login-btn" style="margin: 0 10px;">Perfil</a>
+          <a href="/logout" class="login-btn">Cerrar sesión</a>{{/if}}
         </div>
 
         <div class="main-menu">
@@ -51,9 +51,9 @@
              <li><a href="#">Resources</a></li>
              <li><a href="#">News</a></li>
              <li><a href="#">Claim Information</a></li>
-                       <li class="menu-cta account"><a href="/open-account">Open an Account</a></li>
-                       <li class="menu-cta login"><a href="/login">Login</a></li>
-             <li><a href="#">More</a></li>
+              <li class="menu-cta account"><a href="/open-account">Abrir una cuenta</a></li>
+              <li class="menu-cta login"><a href="/login">Inicia sesión</a></li>
+             <li><a href="#">Mas</a></li>
           </ul>
         </div>
       </div>
@@ -64,7 +64,7 @@
     <!--Footer-->
   	<div class="footer">
   		<div class="container">
-  			TrustMeInsurance is a demonstration application with no affiliation to any existing organization. This application is for demonstration purposes only.
+  			This is a demonstration application with no affiliation to any existing organization. This application is for demonstration purposes only.
   		</div>
   	</div>
 </body>

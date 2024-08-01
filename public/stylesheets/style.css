@@ -58,7 +58,7 @@ h2 {
 h1:after {
 	content: "";
 	display: block;
-	border-bottom: 5px solid #00468C;
+	border-bottom: 5px solid #009166;
 	width: 50px;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 .topMenu ul li a:hover {
-	color: #00468C;
+	color: #009166;
 }
 
 .topMenu ul li:first-child a {
@@ -133,7 +133,9 @@ body {
 .logo {
 	float: left;
 }
-
+.logo-img {
+    max-height: 70px; 
+}
 .header-right {
 	float: right;
 	font-size: 16px;
@@ -149,10 +151,10 @@ body {
 }
 
 .open-btn {
-	color: #00468C;
+	color: #009166;
 	background-color: #fff;
 	border-radius: 5px;
-	border: 1px solid #00468C;
+	border: 1px solid #009166;
 	padding: 10px 20px;
 	margin: 0 10px;
 	transition:all 0.2s ease;
@@ -167,7 +169,7 @@ body {
 
 .login-btn {
 	color: #fff;
-	background-color: #00468C;
+	background-color: #009166;
 	border-radius: 5px;
 	padding: 10px 33px;
 	transition:all 0.2s ease;
@@ -200,12 +202,12 @@ body {
 .main-menu ul li{
 	text-align:center;
 	font-size: 16px;
-	color: #00468C;
+	color: #009166;
 	padding: 0 3.22%;
 }
 
 .main-menu ul li a{
-	color: #00468C;
+	color: #009166;
     display: inline-block;
 	transition: color 0.25s ease-in-out;
 }
@@ -231,7 +233,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 500px;
+	height: 700px;
 	color: #fff;
 	position: relative;
 }
@@ -264,12 +266,12 @@ body {
 
 .banner-caption a {
 	color: #fff;
-	background-color: #00468C;
+	background-color: #009166;
 	border-radius: 5px;
 	padding: 15px 35px;
 	display: inline-block;
 	font-size: 18px;
-	border: 1px solid #00468C;
+	border: 1px solid #009166;
 	transition: all 0.25s ease-in-out;
 }
 
@@ -335,7 +337,7 @@ body {
 
 .popup-title {
 	padding: 20px;
-	background-color: #00468C;
+	background-color: #009166;
 	color: #fff;
 }
 
@@ -400,7 +402,7 @@ body {
 
 .callout h3 {
 	margin: 0;
-	color: #00468C;
+	color: #009166;
 	font-size: 24px;
 	line-height: 29px;
 	font-weight: 400;
@@ -458,7 +460,7 @@ body {
 
 .large-btn {
 	color: #fff;
-    background-color: #00468C;
+    background-color: #009166;
     border-radius: 5px;
     padding: 10px;
     display: block;
@@ -481,7 +483,7 @@ body {
 }
 
 .video-container {
-	color: #00468C;
+	color: #009166;
 	font-size: 13px;
 	line-height: 15px;
 	text-align: center;
@@ -651,7 +653,7 @@ body {
 
 .hamburger-menu span{
 	display:block;
-	background-color:#00468C;
+	background-color:#009166;
 	width:35px;
 	height:4px;
 	position:absolute;
@@ -723,7 +725,7 @@ body {
 	color:#9195AC;
 	}
 .overlay-content a.blue{
-	color:#00468C;
+	color:#009166;
 	}
 
 .overlay-content a.blue:hover{
@@ -771,7 +773,7 @@ body {
 .inputLine{
   width:0px;
   height:2px;
-  background-color: #00468c;
+  background-color: #009166;
   position:relative;
   z-index:100;
   transition: background 0.2s ease;
@@ -779,7 +781,7 @@ body {
 }
 
 .inputLine.active{
-  background-color: #00468c;
+  background-color: #009166;
 }
 
 .formRow-bottom{
@@ -826,7 +828,7 @@ body {
   }
 
 .input-cta{
-	background-color:#00468c;
+	background-color:#009166;
 	border:0;
 	outline:0;
 	display:block;
@@ -957,7 +959,7 @@ input[type=checkbox]:checked:disabled + label:before {
 /*Open A New Account
 ----------------------------------*/
 .banner.blue-bg{
-	background: #00468C;
+	background: #009166;
 	height: auto;
 	min-height: 323px;
 	padding: 140px 0 150px;
@@ -1101,12 +1103,12 @@ select:focus {
 	display:block;
 	min-width:210px;
 	max-width: 210px;
-	color: #00468C;
+	color: #009166;
     border-radius: 5px;
     padding: 15px 35px;
     display: inline-block;
     font-size: 18px;
-    border: 2px solid #00468c;
+    border: 2px solid #009166;
     transition: all 0.25s ease-in-out;
     font-weight: 400;
     margin: 0 7px;
@@ -1120,7 +1122,7 @@ select:focus {
 }
 
 .cta-btn.blue-bg{
-	background-color: #00468c;
+	background-color: #009166;
 	color: #fff;
 }
 
@@ -1246,7 +1248,7 @@ select:focus {
 
 .right-container input[type="submit"]{
 	display: block;
-	background-color: #00468c;
+	background-color: #009166;
 	display: block;
 	width: 100%;
 	height: 56px;
@@ -1819,7 +1821,7 @@ select:focus {
 
 
 .personal-zone-col h2{
-	color: #00468C;
+	color: #009166;
 	font-weight:300;
 	margin:0 0 25px;
 	}
@@ -2071,7 +2073,7 @@ select:focus {
 .insurance-page .col-content-main.beneficiaries-block {padding-top: 0; padding-bottom: 0;}
 .insurance-page .col-content-main.beneficiaries-block table tr td:last-child  {text-align: left;}
 .insurance-page .col-content-main.beneficiaries-block table tr td span {color: #9195AC;font-size: 14px;}
-.insurance-page .col-content-main.beneficiaries-block table tr td h3 {font-size: 24px; color: #00468C;}
+.insurance-page .col-content-main.beneficiaries-block table tr td h3 {font-size: 24px; color: #009166;}
 .insurance-page .insurance-banner {background-image: url(/images/isurance_cover.jpg);height: 660px;}
 .align-left { float:left; }
 .banner-caption.top-bottom-gap { padding-top:44px; padding-bottom:44px;}
@@ -2125,7 +2127,7 @@ select:focus {
 	font-weight:400;
 	border: none;
 	border-radius: 0 0 5px 5px;
-	background-color: #00468C;
+	background-color: #009166;
 	box-shadow: 0 7px 7px 0 rgba(0,0,0,0.2);
 	background-image:url(../images/arrowRight%20Copy.png);
 	background-repeat:no-repeat;
@@ -2267,7 +2269,7 @@ select:focus {
 	text-align:center;
 	border: none;
 	border-radius: 5px;
-	background-color: #00468C;
+	background-color: #009166;
 	cursor:pointer;
 	outline:none;
 	font-size:18px;
@@ -2433,7 +2435,7 @@ input[type="submit"].sa_cta-btn,
 input[type="button"].sa_cta-btn,
 button.sa_cta-btn{
 	display:inline-block;
-	background-color: #00468C;
+	background-color: #009166;
 	height:60px;
 	border-radius:5px;
 	color: #FFFFFF;
@@ -2726,7 +2728,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 
 .sa_formRow_bottom button[type="submit"]{
 	display:block;
-	background-color: #00468C;
+	background-color: #009166;
 	width:100%;
 	height:56px;
 	border-radius:5px;
@@ -2778,7 +2780,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 	}
 
 .sa_formRow-container .sa_formRow-col a:hover{
-	color:#00468C;
+	color:#009166;
 	}
 
 .sa_formRow-container .sa_formRow-col + .sa_formRow-col{
@@ -2953,7 +2955,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 	}
 
 .sa_header-nav ul li a:hover{
-	color:#00468c;
+	color:#009166;
 	}
 
 	.sa_header-nav{
@@ -2992,7 +2994,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 	}
 
 .sa_header-nav ul li a:hover{
-	color:#00468c;
+	color:#009166;
 	}
 
 
@@ -3041,7 +3043,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 		}
 
 	.sa_header-nav-2 ul li a:hover{
-		color:#00468c;
+		color:#009166;
 		}
 
 .sa_header-tool{
@@ -3112,7 +3114,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 	}
 
 .sa_footer-widget ul li a:hover{
-	color:#00468c;
+	color:#009166;
 	}
 
 .sa_footer-wrap .sa_wrapper .sa_footer-widget:last-child{
@@ -3189,7 +3191,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 	}
 
 .sa_breadcrumb-nav ul li:hover a{
-	color:#00468c;
+	color:#009166;
 	}
 
 .sa_breadcrumb-nav ul li:last-child:after{
@@ -3665,7 +3667,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 	top: 0;
 	width: 100%;
 	min-height: 540px;
-	background: #00468C;
+	background: #009166;
 	z-index: 1;
 }
 
@@ -4284,7 +4286,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
     right: 110px;
 }
 .sa_user-login input[type="button"]{
-	background-color: #00468C;
+	background-color: #009166;
 	border-radius: 5px;
 	display: inline-block;
 	color: #fff;
@@ -4299,13 +4301,13 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 	}
 
 .sa_user-login input[type="button"].sa_border{
-	border:1px solid #00468C;
+	border:1px solid #009166;
 	background-color: #fff;
-	color:#00468C;
+	color:#009166;
 }
 
 .sa_user-login input[type="button"].sa_border:hover{
-	background-color: #00468C;
+	background-color: #009166;
 	color: #fff;
 	}
 
@@ -4443,7 +4445,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 .sa_form-column button{
 	width: 100%;
 	height: 110px;
-	background-color: #00468C;
+	background-color: #009166;
 	border: 0;
 	border-radius: 5px;
 	cursor: pointer;
@@ -4489,7 +4491,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 }
 
 .sa_header-search input[type="button"] {
-    background-color: #00468C;
+    background-color: #009166;
     border-radius: 5px;
     display: inline-block;
     color: #fff;
@@ -4567,7 +4569,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 .sa_select-date select {
 	border-radius: 5px;
 	border: 1px solid #FFFFFF;
-	background-color: #00468C;
+	background-color: #009166;
 	color: #fff;
 	font-size: 18px;
 	padding: 10px 15px;
@@ -4634,7 +4636,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 
 .sa_flight-price a {
 	border-radius: 5px;
-	background-color: #00468C;
+	background-color: #009166;
 	font-size: 26px;
 	color: #FFFFFF;
 	display: inline-block;
@@ -4701,7 +4703,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 
 .sa_mobile-nav span{
 	display:block;
-	background-color:#00468C;
+	background-color:#009166;
 	width:100%;
 	height:3px;
 	position:absolute;
@@ -4991,7 +4993,7 @@ input[type="radio"]:checked.sa_custom-input + label:before{
 	.popup-title img[rel="pop-logo"]{ max-width:110px; margin:3px 0;}
 	.popup-title .separator{ margin:0 10px;}
 	.main-menu ul li.menu-cta { margin:10px 0 15px;}
-	.main-menu ul li.menu-cta a{ background-color:#00468C; color:#fff; display:block; padding:10px; transition:all 0.2s ease; -webkit-transition:all 0.2s ease;}
+	.main-menu ul li.menu-cta a{ background-color:#009166; color:#fff; display:block; padding:10px; transition:all 0.2s ease; -webkit-transition:all 0.2s ease;}
 	.main-menu ul li.menu-cta a:hover{background-color: #024f9c;}
 
 	.input-list-box{ width: 100%; float: none; padding: 0;}

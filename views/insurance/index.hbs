@@ -2,32 +2,37 @@
 	<div class="banner insurance-banner">
 		<div class="container">
 			<div class="banner-caption align-left">
-				<h1>Being in Control of Your Insurance</h1>
-				<p>Financial advice that gives you the armour to protect what’s yours.</p>
+				<h1>Descarga tu RUT en cualquier lugar</h1>
+				<p>Ya puedes descargar, actualizar y hacer tus consultas desde un solo lugar.</p>
 			</div>
             <div class="banner_form">
-            	<h3>Get a Quote</h3>
+            	<h3>Descargar RUT</h3>
 
                 <form method="post" action="/open-account/step-two">
-                <div class="form_inputs">
-						<p style="color:#1f1f1f">Get started quickly with simply your name and email address!</p>
+					<div class="form_inputs">
+							<p style="color:#1f1f1f">Empieza tu proceso por medio de tu correo!</p>
+							<div class="formRow">
+							<label>Nombres</label>
+							<input type="text" name="givenName"  placeholder="Nombres" onFocus="this.placeholder = ''">
+							<div class="inputLine"></div>
+					</div>
+					<div class="formRow">
+							<label>Apellidos</label>
+							<input type="text" name="familyName"  placeholder="Apellidos" onFocus="this.placeholder = ''">
+							<div class="inputLine"></div>
+					</div>
+					<div class="formRow">
+							<label>Cédula</label>
+							<input type="number" name="ceduladeciudadania"  placeholder="Cédula de ciudadanía" onFocus="this.placeholder = ''">
+							<div class="inputLine"></div>
+					</div>
 						<div class="formRow">
-                    	<label>First name</label>
-                        <input type="text" name="givenName"  placeholder="First name" onFocus="this.placeholder = ''">
-                        <div class="inputLine"></div>
-                    </div>
-										<div class="formRow">
-                    	<label>Last name</label>
-                        <input type="text" name="familyName"  placeholder="Last name" onFocus="this.placeholder = ''">
-                        <div class="inputLine"></div>
-                    </div>
-                    <div class="formRow">
-                    	<label>Email</label>
-                        <input type="email" placeholder="Email" name="email" onFocus="this.placeholder = ''">
-                        <div class="inputLine"></div>
-                    </div>
-                </div>
-                <input type="submit" value="Get a quote">
+							<label>Email</label>
+							<input type="email" placeholder="Email" name="email" onFocus="this.placeholder = ''">
+							<div class="inputLine"></div>
+						</div>
+					</div>
+					<input type="submit" value="Empezar ">
                 </form>
             </div>
 		</div>

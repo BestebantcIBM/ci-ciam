@@ -931,6 +931,7 @@ function findAccount(accountId, accessToken, callback) {
 }
 
 function createUser(payload, callback) {
+  console.log("el payload:", payload)
   var options = {
     'method': 'post',
     'url': process.env.OIDC_CI_BASE_URI + `/v2.0/Users`,

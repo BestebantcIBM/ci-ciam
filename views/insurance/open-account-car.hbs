@@ -2,8 +2,8 @@
 	<div class="banner blue-bg" style="max-height: none;">
 		<div class="container">
 			<div class="banner-caption">
-				<h1>Get insured</h1>
-				<p>Welcome. Apply in minutes.</p>
+				<h1>Iniciar un Tramite</h1>
+				<p>Bienvenido. Realizalo en minutos.</p>
 			</div>
 		</div>
 	</div>
@@ -14,17 +14,16 @@
 			<form action="{{action}}" method="post">
 				<div class="input-list clear">
 
-					<h3>Get an instant quote</h3>
+					<h3>Actualizar información</h3>
 
-					<h4>Personal details</h4>
-					<div class="input-list-box">
+					<h4>Información personal</h4>
+					{{!-- <div class="input-list-box">
 						<div class="formRow">
-							<label>Your birthday</label>
-							<input type="date" name="birthday" placeholder="Your birthday" {{#if birthday}}value="{{birthday}}" {{/if}} onFocus="this.placeholder = ''">
-
+							<label>Dia de nacimiento</label>
+							<input type="date" name="birthday" placeholder="Dia de nacimiento" {{#if birthday}}value="{{birthday}}" {{/if}} onFocus="this.placeholder = ''">
 							<div class="inputLine"></div>
 						</div>
-					</div>
+					</div> --}}
 					<div class="input-list-box">
 						<div class="formRow">
 							<label>Your zip code</label>
@@ -32,7 +31,21 @@
 							<div class="inputLine"></div>
 						</div>
 					</div>
-					<h4>Car information</h4>
+					<div class="input-list-box">
+						<div class="formRow">
+							<label>Dirección</label>
+							<input type="text" name="direccion" placeholder="Dirección" {{#if direccion}}value="{{direccion}}" {{/if}} onFocus="this.placeholder = ''">
+							<div class="inputLine"></div>
+						</div>
+					</div>
+					<div class="input-list-box">
+						<div class="formRow">
+							<label>Celular</label>
+							<input type="text" name="celular" placeholder="Celular" {{#if celular}}value="{{celular}}" {{/if}} onFocus="this.placeholder = ''">
+							<div class="inputLine"></div>
+						</div>
+					</div>
+					{{!-- <h4>Car information</h4>
 					<div class="input-list-box">
 						<div class="formRow">
 							<label style="opacity: 1 !important;">Make</label>
@@ -65,7 +78,7 @@
 							<input type="input" name="carYear" placeholder="Car year" onFocus="this.placeholder = ''">
 							<div class="inputLine"></div>
 						</div>
-					</div>
+					</div> --}}
 					<div class="input-list-box">
 						<div class="formRow-bottom clearfix">
 							<input class="input-cta" type="submit" value="Get a quote">
