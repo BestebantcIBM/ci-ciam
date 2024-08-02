@@ -44,12 +44,12 @@
   width:90px
 }
 .bb-image-car {
-	background-image: url("/images/quote_sprite.svg#auto_selected");
+	background-image: url("/images/document_svg.svg");
   min-height:180px !important;
   display: block;
 }
 .bb-image-car.small {
-	background-image: url("/images/quote_sprite.svg#auto_selected");
+	background-image: url("/images/document_svg.svg");
   min-height:60px !important;
   display: block;
 }

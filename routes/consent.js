@@ -45,8 +45,8 @@ router.get('/terms', function(req, res, next) {
         var termsDSP = dspResp.purposes[purposeID];
         res.render('insurance/privacy/eula_consent', {
           layout: false,
-          consentTitle: `Terms of service (version ${termsDSP.version})`,
-          pageDescription: `The terms of service was updated on ${lastModified.toGMTString()}. Please review and accept the new terms before accessing your profile`,
+          consentTitle: `Terminos de Servicio (version ${termsDSP.version})`,
+          pageDescription: `Los Terminos de servicios fueron actualizados el dia ${lastModified.toGMTString()}. Por favor revise y acepte los nuevos términos antes de acceder a su perfil`,
           refLink: termsDSP.termsOfUse.ref,
           accessTypeId: termsDSP.accessTypes[0].id,
           assertUIDefault: termsDSP.accessTypes[0].assentUIDefault,
